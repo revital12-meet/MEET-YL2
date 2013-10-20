@@ -1,1 +1,10 @@
-a. In order to run the server
+a. In order to run the server, I typed "python manage.py runserver". The URL I went to is "http://127.0.0.1:8000".
+
+b. After clicking on the first movie, the URL is "http://127.0.0.1:8000/movies/1/".
+After clicking on the second movie, the URL is "http://127.0.0.1:8000/movies/2/".
+If I added 100 movie, its URL will be "http://127.0.0.1:8000/movies/100/".
+
+c. If you type "http://127.0.0.1:8000/movies/addmovie" it calls the function "views.add_movie" in vies.py.
+If you type "http://127.0.0.1:8000/movies/5/" it calls the function "views.movie".
+If I type "http://127.0.0.1:8000/shrek" in the browser there will be an error because there isn't a regular expression in the urls.py that fits this expression.
+
