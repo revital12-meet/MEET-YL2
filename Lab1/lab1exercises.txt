@@ -8,3 +8,5 @@ c. If you type "http://127.0.0.1:8000/movies/addmovie" it calls the function "vi
 If you type "http://127.0.0.1:8000/movies/5/" it calls the function "views.movie".
 If I type "http://127.0.0.1:8000/shrek" in the browser there will be an error because there isn't a regular expression in the urls.py that fits this expression.
 
+3) d. Because it sends it to urls.py, which directs it to the right function in views.py (add_comment).
+
